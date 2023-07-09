@@ -129,12 +129,12 @@ header.active {
 
 .menu {
     display: flex;
-    display: none;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
     font-size: 1.8rem;
     color: var(--White);
+    font-weight: 300;
     height: 100vh;
     width: 100vw;
     background: var(--Blue);
@@ -146,7 +146,6 @@ header.active {
 }
 
 .menu.active {
-    display: flex;
     transform: translateX(0);
 }
 
@@ -178,11 +177,11 @@ header.active {
     z-index: 10;
 }
 
-.burger.active > span {
+.burger.active span {
     background: var(--White);
 }
 
-.burger span {
+.burger > span {
     width: 100%;
     height: 0.125rem;
     border-radius: 0rem;
