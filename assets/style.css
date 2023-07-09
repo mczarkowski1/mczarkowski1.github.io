@@ -129,6 +129,7 @@ header.active {
 
 .menu {
     display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
@@ -145,6 +146,7 @@ header.active {
 }
 
 .menu.active {
+    display: flex;
     transform: translateX(0);
 }
 
@@ -189,15 +191,16 @@ header.active {
 }
 
 .burger.active > :nth-child(1) {
-    transform: rotate(-45deg) translateY(1.3rem);
+    transform: rotate(-45deg) translateY(1rem);
 }
 
 .burger.active > :nth-child(2) {
     transform: translateX(100vw);
+    display: none;
 }
 
 .burger.active > :nth-child(3) {
-    transform: rotate(45deg) translateY(-1.1rem);
+    transform: rotate(45deg) translateY(-0.9rem);
 }
 
 /* DESKTOP MENU */
