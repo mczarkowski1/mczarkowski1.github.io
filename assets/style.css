@@ -277,6 +277,7 @@ main {
 }
 
 .top-text {
+    font-weight: 900;
     font-size: 30px;
     margin-bottom: 80px;
 }
