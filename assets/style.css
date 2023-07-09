@@ -270,15 +270,15 @@ main {
 .intro-text {
     width: 100%;
     margin-bottom: 65px;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 40px;
     color: var(--White);
 }
 
 .top-text {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 55px;
     margin-bottom: 80px;
 }
 
@@ -367,7 +367,7 @@ main {
     }
 
     .top-text {
-        font-size: 64px;
+        font-size: 110px;
         margin-top: 60px;
         margin-bottom: 80px;
     }
