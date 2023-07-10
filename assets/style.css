@@ -1,4 +1,4 @@
-@supports font-format(embedded-opentype) {
+@supports font-format(truetype) {
     @font-face {
         font-family: 'Montserrat';
         src: url("./assets/fonts/Montserrat-Black.eot");
@@ -74,6 +74,7 @@
 
 body {
     background: var(--Black);
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
