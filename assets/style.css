@@ -1,4 +1,4 @@
-@supports font-format(embedded-opentype), font-format(woff), font-format(woff2), font-format(opentype), font-format(truetype), font-format(svg) {
+@supports font-format(woff), font-format(woff2), font-format(opentype), font-format(truetype), font-format(svg) {
     @font-face {
         font-family: 'Montserrat';
         src: url("./assets/fonts/Montserrat-Black.eot");
