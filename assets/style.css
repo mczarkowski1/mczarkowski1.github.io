@@ -288,10 +288,13 @@ main {
 }
 
 .top-text {
+    margin-bottom: 80px;
+}
+
+.top-text-p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 55px;
-    margin-bottom: 80px;
 }
 
 .bottom-text {
@@ -380,13 +383,16 @@ main {
     }
 
     .top-text {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        font-size: 110px;
         margin-top: 60px;
         margin-bottom: 80px;
     }
 
+    .top-text-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 110px;
+    }
+    
     .bottom-text {
         font-family: 'BDO Grotesk', sans-serif;
         font-weight: 300;
