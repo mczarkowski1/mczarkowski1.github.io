@@ -210,6 +210,11 @@ header.active {
         display: none;
     }
 
+    .header {
+        font-family: 'BDO Grotesk', sans-serif;
+        font-weight: 300;
+    }
+    
     .menu {
         display: flex;
         position: unset;
