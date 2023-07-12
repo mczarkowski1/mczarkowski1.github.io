@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url("./assets/fonts/Montserrat-VF.ttf")
-    format("truetype supports variations"),url("./assets/fonts/Montserrat-VF.ttf")
+    src: url("../assets/fonts/Montserrat-VF.ttf")
+    format("truetype supports variations"),url("../assets/fonts/Montserrat-VF.ttf")
     format("truetype-variations");
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'BDO Grotesk';
-    src: url("./assets/fonts/BDOGrotesk-VF.ttf")
-    format("truetype supports variations"),url("./assets/fonts/BDOGrotesk-VF.ttf")
+    src: url("../assets/fonts/BDOGrotesk-VF.ttf")
+    format("truetype supports variations"),url("../assets/fonts/BDOGrotesk-VF.ttf")
     format("truetype-variations");
     font-weight: 300 400;
 }
