@@ -16,6 +16,7 @@
 
 
 
+
 * {
     padding: 0;
     margin: 0;
@@ -227,7 +228,7 @@ main {
 /* INTRO */
 
 .intro {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 150px;
@@ -237,9 +238,9 @@ main {
 
 .intro-text {
     width: 100%;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: var(--White);
 }
 
@@ -250,7 +251,7 @@ main {
 .top-text-p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 47px;
 }
 
 .bottom-text {
@@ -260,7 +261,7 @@ main {
 .bottom-text-p {
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .buttons {
@@ -269,6 +270,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 60%;
+}
+
+.intro-buttons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .button-intro-contact {
@@ -293,7 +301,6 @@ main {
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
-    margin-top: 10px;
     color: var(--Grey);
 }
 
@@ -329,7 +336,7 @@ main {
 
 @media only screen and (min-width: 768px) {
     .intro {
-        margin-top: 160px;
+        margin-top: 10px;
         margin-left: 170px;
         margin-right: 170px;
         margin-bottom: 330px;
@@ -343,13 +350,13 @@ main {
 
     .top-text {
         margin-top: 60px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     .top-text-p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
-        font-size: 110px;
+        font-size: 100px;
     }
 
     .bottom-text {
@@ -658,13 +665,13 @@ main {
         margin-bottom: 500px;
     }
     
-    .about-top-text {
+    .about-top-text-content {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         margin-bottom: 15px;
     }
     
-    .about-bottom-text {
+    .about-bottom-text-content {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
