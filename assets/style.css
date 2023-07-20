@@ -628,18 +628,22 @@ main {
     margin-bottom: 500px;
 }
 
-.about-top-text {
+.about-top-text-content {
     font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     margin-bottom: 15px;
 }
 
-.about-bottom-text {
+.about-bottom-text-content {
     font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     font-weight: 300;
     font-size: 16px;
     color: var(--Grey);
+}
+
+.about-text-content {
+    margin-bottom: 6px;
 }
 
 @media only screen and (min-width: 768px){
