@@ -228,7 +228,7 @@ main {
 /* INTRO */
 
 .intro {
-    margin-top: 160px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 150px;
@@ -336,7 +336,7 @@ main {
 
 @media only screen and (min-width: 768px) {
     .intro {
-        margin-top: 10px;
+        margin-top: 160px;
         margin-left: 170px;
         margin-right: 170px;
         margin-bottom: 460px;
