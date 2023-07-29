@@ -508,6 +508,25 @@ main {
     margin-bottom: 200px;
 }
 
+.project-texts {
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.projects-texts-content {
+    text-align: center;
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--Grey);
+}
+
+.in-project-url {
+    text-decoration: none;
+    color: var(--Blue);
+}
+
 .project-images {
     display: grid;
     grid-template-columns: 100%;
