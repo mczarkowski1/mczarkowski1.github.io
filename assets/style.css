@@ -578,10 +578,14 @@ main {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
     .project-content {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .projects-texts-content {
+        font-size: 1.1rem;
     }
 }
 
