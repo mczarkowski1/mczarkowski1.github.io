@@ -578,47 +578,14 @@ main {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-    .project-content {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .projects-texts-content {
-        font-size: 1.1rem;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    .project-content {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .projects-texts-content {
-        font-size: 1.1rem;
-    }
-}
-
-@media only screen and (min-width: 951px) {
+@media only screen and (min-width: 1099px) {
     .project-content {
         margin-left: 40px;
         margin-right: 40px;
     }
 
     .projects-texts-content {
-        font-size: 1.2rem;
-    }
-}
-
-@media only screen and (min-width: 1051px) {
-    .project-content {
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-    .projects-texts-content {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -627,20 +594,12 @@ main {
         margin-left: 80px;
         margin-right: 80px;
     }
-
-    .projects-texts-content {
-        font-size: 1.4rem;
-    }
 }
 
 @media only screen and (min-width: 1200px) {
     .project-content {
         margin-left: 110px;
         margin-right: 110px;
-    }
-
-    .projects-texts-content {
-        font-size: 1.5rem;
     }
 }
 
@@ -649,20 +608,12 @@ main {
         margin-left: 140px;
         margin-right: 140px;
     }
-
-    .projects-texts-content {
-        font-size: 1.6rem;
-    }
 }
 
 @media only screen and (min-width: 1400px) {
     .project-content {
         margin-left: 170px;
         margin-right: 170px;
-    }
-
-    .projects-texts-content {
-        font-size: 1.7rem;
     }
 }
 
@@ -671,10 +622,6 @@ main {
         margin-left: 200px;
         margin-right: 200px;
     }
-
-    .projects-texts-content {
-        font-size: 1.8rem;
-    }
 }
 
 @media only screen and (min-width: 1600px) {
@@ -682,42 +629,12 @@ main {
         margin-left: 225px;
         margin-right: 225px;
     }
-
-    .projects-texts-content {
-        font-size: 1.9rem;
-    }
 }
 
-@media only screen and (min-width: 2100px) {
+@media only screen and (min-width: 1700px) {
     .project-content {
         margin-left: 250px;
         margin-right: 250px;
-    }
-
-    .projects-texts-content {
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (min-width: 2300px) {
-    .project-content {
-        margin-left: 250px;
-        margin-right: 250px;
-    }
-
-    .projects-texts-content {
-        font-size: 2.1rem;
-    }
-}
-
-@media only screen and (min-width: 2600px) {
-    .project-content {
-        margin-left: 250px;
-        margin-right: 250px;
-    }
-
-    .projects-texts-content {
-        font-size: 2.4rem;
     }
 }
 
