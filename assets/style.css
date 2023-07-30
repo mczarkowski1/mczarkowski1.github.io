@@ -518,7 +518,7 @@ main {
     text-align: center;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: var(--Grey);
 }
 
@@ -578,14 +578,14 @@ main {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 1099px) {
+@media only screen and (min-width: 768px) {
     .project-content {
         margin-left: 40px;
         margin-right: 40px;
     }
 
     .projects-texts-content {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -594,12 +594,20 @@ main {
         margin-left: 80px;
         margin-right: 80px;
     }
+
+    .projects-texts-content {
+        font-size: 1.3rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .project-content {
         margin-left: 110px;
         margin-right: 110px;
+    }
+
+    .projects-texts-content {
+        font-size: 1.4rem;
     }
 }
 
@@ -608,12 +616,20 @@ main {
         margin-left: 140px;
         margin-right: 140px;
     }
+
+    .projects-texts-content {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
     .project-content {
         margin-left: 170px;
         margin-right: 170px;
+    }
+
+    .projects-texts-content {
+        font-size: 1.6rem;
     }
 }
 
@@ -622,12 +638,20 @@ main {
         margin-left: 200px;
         margin-right: 200px;
     }
+
+    .projects-texts-content {
+        font-size: 1.7rem;
+    }
 }
 
 @media only screen and (min-width: 1600px) {
     .project-content {
         margin-left: 225px;
         margin-right: 225px;
+    }
+
+    .projects-texts-content {
+        font-size: 1.8rem;
     }
 }
 
@@ -636,7 +660,79 @@ main {
         margin-left: 250px;
         margin-right: 250px;
     }
+
+    .projects-texts-content {
+        font-size: 1.9rem;
+    }
 }
+
+@media only screen and (min-width: 1900px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 2700px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 2900px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .projects-texts-content {
+        font-size: 2.6rem;
+    }
+}
+
+
 
 /* SECTION ABOUT */
 
