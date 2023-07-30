@@ -578,6 +578,28 @@ main {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 350px) {
+    .project-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .projects-texts-content {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 463px) {
+    .project-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .projects-texts-content {
+        font-size: 0.7rem;
+    }
+}
+
 @media only screen and (min-width: 520px) {
     .project-content {
         margin-left: 30px;
