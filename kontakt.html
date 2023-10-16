@@ -11,11 +11,11 @@
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q41F842BK5"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'G-Q41F842BK5');
+            gtag('config', 'G-Q41F842BK5');
         </script>
         <meta charset="UTF-8">
         <title>Kontakt | Mikołaj Czarkowski</title>
@@ -48,14 +48,15 @@
         <!-- End Google Tag Manager (noscript) -->
         <header>
             <div class="logo">
-                <a href="https://www.mczarkowski.com">
+                <a href="https://mczarkowski.com">
                     <img src="./images/Logo.svg" alt="website-logo" class="logo-file">
                 </a>
             </div>
             <ul class="menu">
-                <a href="https://www.mczarkowski.com" class="menu-link">PROJEKTY</a>
-                <a href="https://www.mczarkowski.com/poznaj-mnie" class="menu-link">POZNAJ MNIE</a>
-                <a href="https://www.mczarkowski.com/kontakt" class="menu-link">KONTAKT</a>
+                <a href="https://mczarkowski.com/" class="menu-link">STRONA GŁÓWNA</a>
+                <a href="https://mczarkowski.com/#works" class="menu-link">REALIZACJE</a>
+                <a href="https://mczarkowski.com/o-mnie" class="menu-link">O MNIE</a>
+                <a href="https://mczarkowski.com/kontakt" class="menu-link">KONTAKT</a>
             </ul>
             <button class="burger">
                 <span></span>
@@ -64,42 +65,60 @@
             </button>
         </header>
         <main>
-            <div class="about-title">
-                <div class="section-title">
-                    <p>POTRZEBUJESZ CZEGOŚ?</p>
+            <div class="contact-container">
+                <div class="section-title" id="works">
+                    <div class="title-text">
+                        <p>POTRZEBUJESZ CZEGOŚ?</p>
+                        <p class="title-description">Konsultacja jest zupełnie darmowa</p>
+                    </div>
                 </div>
-            </div> 
-            <section class="contact">
-                <form class="contact-form" action="https://formsubmit.io/send/26f01614-bfa5-490a-a8f8-10781db64a32" method="POST">
-                    <div class="contact-form-field">
-                        <label for="name">Imię i nazwisko*</label>
-                        <input type="text" name="name" required />
-                    </div>
-                    <div class="contact-form-field">
-                        <label for="email">E-mail*</label>
-                        <input type="text" name="email" required />
-                    </div>
-                    <div class="contact-form-field">
-                        <label for="message">Twoja wiadomość*</label>
-                        <textarea name="message" cols="30" rows="12" placeholder="Opisz swoje zlecenie" required></textarea>
-                    </div>
-                    <input name="_redirect" type="hidden" id="name" value="https://www.mczarkowski.com/dziekuje">
-                    <input name="_formsubmit_id" type="text" style="display:none">
-                    <button class="contact-form-btn">WYŚLIJ</button>
-                </form>
-            </section>
+                <section class="contact">
+                    <form class="contact-form" action="https://formsubmit.io/send/1b782b7a-9948-4c96-a49c-f63bd78345a1" method="POST">
+                        <div class="contact-form-field">
+                            <label for="name">Imię i nazwisko*</label>
+                            <input type="text" name="name" required />
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="email">E-mail*</label>
+                            <input type="text" name="email" required />
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="message">Twoja wiadomość*</label>
+                            <textarea name="message" cols="30" rows="12" placeholder="Opisz swoje zlecenie" required></textarea>
+                        </div>
+                        <input name="_redirect" type="hidden" id="name" value="https://mczarkowski.com/dziekuje">
+                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <button class="contact-form-btn">Wyślij</button>
+                    </form>
+                </section>
+            </div>
         </main>
         <footer>
-            <div class="footer-social">
-                <a href="https://instagram.com/mczarkowski_/" target="_blank" class="social">
-                    <img src="./images/icons/Instagram.svg" alt="instagram" class="icon">
-                </a>
-                <a href="https://tiktok.com/@mczarkowski/" target="_blank" class="social">
-                    <img src="./images/icons/TikTok.svg" alt="tiktok" class="icon">
-                </a>
-                <a href="https://www.facebook.com/mczarkowskicom/" target="_blank" class="social"> 
-                    <img src="./images/icons/Facebook.svg" alt="facebook" class="icon">
-                </a>
+            <div class="footer-content">
+                <div class="ftr-logo">
+                    <a href="index.html#home">
+                        <img src="./images/Logo-sign.svg" alt="website-logo" class="ftr-logo-file">
+                    </a>
+                </div>
+                <div class="ftr-navbar">
+                    <ul class="ftr-menu">
+                        <a href="https://mczarkowski.com/" class="ftr-menu-link">STRONA GŁÓWNA</a>
+                        <a href="https://mczarkowski.com/#works" class="ftr-menu-link">REALIZACJE</a>
+                        <a href="https://mczarkowski.com/o-mnie" class="ftr-menu-link">O MNIE</a>
+                        <a href="https://mczarkowski.com/kontakt" class="ftr-menu-link">KONTAKT</a>
+                    </ul>
+                </div>
+                <div class="ftr-socials">
+                    <a href="https://instagram.com/mczarkowski_/" target="_blank" class="social">
+                        <img src="./images/icons/socials/Instagram.svg" alt="instagram" class="icon">
+                    </a>
+                    <a href="https://tiktok.com/@mczarkowski/" target="_blank" class="social">
+                        <img src="./images/icons/socials/TikTok.svg" alt="tiktok" class="icon">
+                    </a>
+                    <a href="https://www.facebook.com/mczarkowskicom/" target="_blank" class="social"> 
+                        <img src="./images/icons/socials/Facebook.svg" alt="facebook" class="icon">
+                    </a>
+                </div>
             </div>
         </footer>
         <script src="./assets/main.js"></script>
