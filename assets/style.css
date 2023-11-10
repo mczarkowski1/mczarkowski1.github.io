@@ -202,7 +202,7 @@ header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 38px;
     color: var(--White);
 }
 
@@ -281,19 +281,19 @@ header {
     }
 
     .intr-button-about {
-        height: 4rem;
-        width: 15rem;
+        height: 4.6rem;
+        width: 18rem;
         margin-right: 10px;
-        font-size: 1rem;
-        border-radius: 2rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
     }
 
     .intr-button-contact {
-        height: 4rem;
-        width: 15rem;
+        height: 4.6rem;
+        width: 18rem;
         margin-left: 10px;
-        font-size: 1rem;
-        border-radius: 2rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
     }
 }
 
@@ -606,7 +606,7 @@ header {
 
 .project-btn {
     height: 4.6rem;
-    width: 20rem;
+    width: 18rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -806,7 +806,7 @@ header {
     border: none;
     border-radius: 3rem;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .projects-button-go:hover {
@@ -821,11 +821,13 @@ header {
 @media only screen and (min-width: 768px) {
     .projects-button-go {
         height: 4.6rem;
-        width: 20rem;
+        width: 18rem;
         font-size: 1.1rem;
         border-radius: 3rem;
     }
 }
+
+
 
 
 
