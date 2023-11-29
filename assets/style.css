@@ -202,7 +202,7 @@ header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 28px;
     color: var(--White);
 }
 
@@ -281,19 +281,19 @@ header {
     }
 
     .intr-button-about {
-        height: 4rem;
-        width: 15rem;
+        height: 4.6rem;
+        width: 18rem;
         margin-right: 10px;
-        font-size: 1rem;
-        border-radius: 2rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
     }
 
     .intr-button-contact {
-        height: 4rem;
-        width: 15rem;
+        height: 4.6rem;
+        width: 18rem;
         margin-left: 10px;
-        font-size: 1rem;
-        border-radius: 2rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
     }
 }
 
@@ -606,7 +606,7 @@ header {
 
 .project-btn {
     height: 4.6rem;
-    width: 20rem;
+    width: 18rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -820,10 +820,10 @@ header {
 
 @media only screen and (min-width: 768px) {
     .projects-button-go {
-        height: 4rem;
-        width: 15rem;
-        font-size: 1rem;
-        border-radius: 2rem;
+        height: 4.6rem;
+        width: 18rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
     }
 }
 
@@ -856,7 +856,7 @@ header {
 
 .about-text {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 500px;
 }
 
 .about-top-text-content {
@@ -953,7 +953,7 @@ header {
 }
 
 .contact-form {
-    margin: 10rem auto;
+    margin: 50px auto;
     margin-bottom: 400px;
     width: 80%;
 }
@@ -1026,17 +1026,17 @@ header {
     }
 
     .contact-form-btn {
-        height: 4rem;
-        width: 15rem;
+        height: 4.6rem;
+        width: 20rem;
         font-family: 'BDO Grotesk', sans-serif;
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: var(--White);
         background: var(--Blue);
         border: none;
-        border-radius: 2rem;
+        border-radius: 3rem;
         display: block;
-        margin: 0 auto;
+        margin: 50px auto;
         padding: 0.5rem;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
