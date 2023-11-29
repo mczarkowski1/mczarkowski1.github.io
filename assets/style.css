@@ -202,7 +202,7 @@ header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 38px;
     color: var(--White);
 }
 
@@ -281,19 +281,19 @@ header {
     }
 
     .intr-button-about {
-        height: 4.6rem;
-        width: 18rem;
+        height: 4rem;
+        width: 15rem;
         margin-right: 10px;
-        font-size: 1.1rem;
-        border-radius: 3rem;
+        font-size: 1rem;
+        border-radius: 2rem;
     }
 
     .intr-button-contact {
-        height: 4.6rem;
-        width: 18rem;
+        height: 4rem;
+        width: 15rem;
         margin-left: 10px;
-        font-size: 1.1rem;
-        border-radius: 3rem;
+        font-size: 1rem;
+        border-radius: 2rem;
     }
 }
 
@@ -606,7 +606,7 @@ header {
 
 .project-btn {
     height: 4.6rem;
-    width: 18rem;
+    width: 20rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -820,10 +820,10 @@ header {
 
 @media only screen and (min-width: 768px) {
     .projects-button-go {
-        height: 4.6rem;
-        width: 18rem;
-        font-size: 1.1rem;
-        border-radius: 3rem;
+        height: 4rem;
+        width: 15rem;
+        font-size: 1rem;
+        border-radius: 2rem;
     }
 }
 
@@ -856,7 +856,7 @@ header {
 
 .about-text {
     padding-top: 30px;
-    padding-bottom: 500px;
+    padding-bottom: 50px;
 }
 
 .about-top-text-content {
@@ -869,12 +869,29 @@ header {
     font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--Grey);
 }
 
 .about-text-content {
-    margin-bottom: 6px;
+    margin-bottom: 7px;
+}
+
+.about-list-content {
+    font-family: 'BDO Grotesk', sans-serif;
+    color: var(--White);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--Grey);
+    justify-content: start;
+}
+
+.about-left-list-content {
+    padding-left: 30px;
+}
+
+.about-right-list-content {
+    padding-left: 30px;
 }
 
 @media only screen and (min-width: 768px){
@@ -886,7 +903,7 @@ header {
     }
 
     .about-text {
-        padding-bottom: 500px;
+        padding-bottom: 50px;
     }
     
     .about-top-text-content {
@@ -900,8 +917,23 @@ header {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
-        font-size: 18px;
+        font-size: 22px;
         color: var(--Grey);
+    }
+
+    .about-list-content {
+        font-family: 'BDO Grotesk', sans-serif;
+        color: var(--White);
+        font-weight: 300;
+        font-size: 22px;
+        color: var(--Grey);
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 34% 39%;
+    }
+    
+    .about-left-list-content {
+        padding-left: 30px;
     }
 }
 
@@ -921,7 +953,7 @@ header {
 }
 
 .contact-form {
-    margin: 50px auto;
+    margin: 10rem auto;
     margin-bottom: 400px;
     width: 80%;
 }
@@ -994,17 +1026,17 @@ header {
     }
 
     .contact-form-btn {
-        height: 4.6rem;
-        width: 20rem;
+        height: 4rem;
+        width: 15rem;
         font-family: 'BDO Grotesk', sans-serif;
         font-weight: 300;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: var(--White);
         background: var(--Blue);
         border: none;
-        border-radius: 3rem;
+        border-radius: 2rem;
         display: block;
-        margin: 50px auto;
+        margin: 0 auto;
         padding: 0.5rem;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
