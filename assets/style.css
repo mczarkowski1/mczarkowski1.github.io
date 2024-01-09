@@ -220,26 +220,6 @@ header {
 .intr-button-about {
     height: 4.6rem;
     width: 20rem;
-    margin-bottom: 30px;
-    font-family: 'BDO Grotesk', sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    color: var(--White);
-    background: var(--Blue);
-    border: none;
-    border-radius: 3rem;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.intr-button-about:hover {
-    background: var(--White);
-    color: var(--Black);
-}
-
-.intr-button-contact {
-    height: 4.6rem;
-    width: 20rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -247,6 +227,27 @@ header {
     color: var(--White);
     border-style: double;
     border-color: var(--Blue);
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.intr-button-about:hover {
+    background: var(--White);
+    border-color: var(--White);
+    color: var(--Black);
+}
+
+.intr-button-contact {
+    height: 4.6rem;
+    width: 20rem;
+    margin-bottom: 30px;
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: var(--White);
+    background: var(--Blue);
+    border: none;
     border-radius: 3rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -260,7 +261,6 @@ header {
 
 .intr-button-contact:hover {
     background: var(--White);
-    border-color: var(--White);
     color: var(--Black);
 }
 
