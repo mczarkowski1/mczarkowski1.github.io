@@ -874,7 +874,7 @@ header {
 }
 
 .about-text-content {
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
 
 .about-list-content {
@@ -917,7 +917,7 @@ header {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
-        font-size: 22px;
+        font-size: 20px;
         color: var(--Grey);
     }
 
@@ -925,7 +925,7 @@ header {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
-        font-size: 22px;
+        font-size: 20px;
         color: var(--Grey);
         justify-content: space-between;
         display: grid;
