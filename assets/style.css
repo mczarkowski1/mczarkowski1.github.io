@@ -878,6 +878,7 @@ header {
 }
 
 .about-list-content {
+    margin-bottom: 100px;
     font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     font-weight: 300;
