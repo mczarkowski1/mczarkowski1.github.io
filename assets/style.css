@@ -835,7 +835,7 @@ header {
 /* ABOUT PAGE */
 
 .about-container {
-    height: 1700px;
+    height: 2100px;
     width: auto;
     background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
 }
@@ -896,7 +896,7 @@ header {
 
 @media only screen and (min-width: 768px){
     .about-container {
-        height: 1770px;
+        height: 2000px;
     }
     
     .about-content {
@@ -921,7 +921,7 @@ header {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
-        font-size: 20px;
+        font-size: 19px;
         color: var(--Grey);
     }
 
@@ -929,7 +929,7 @@ header {
         font-family: 'BDO Grotesk', sans-serif;
         color: var(--White);
         font-weight: 300;
-        font-size: 20px;
+        font-size: 19px;
         color: var(--Grey);
         justify-content: space-between;
         display: grid;
