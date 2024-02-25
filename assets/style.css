@@ -479,7 +479,7 @@ header {
 }
 
 .project-img:hover {
-    filter: invert(100%);
+    filter: brightness(140%);
 }
 
 .project-url {
@@ -524,7 +524,7 @@ header {
     }
 
     .project-img:hover {
-        filter: invert(100%);
+        filter: brightness(140%);
     }
 
     .project-url {
