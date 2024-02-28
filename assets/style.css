@@ -93,6 +93,17 @@ header {
     cursor: pointer;
 }
 
+.menu-link-k-button {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: var(--White), none;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .logo-file {
     height: 40px;
 }
@@ -177,8 +188,29 @@ header {
         transition: all 0.3s ease-in-out;
     }
 
+    .menu-link-k-button {
+        font-family: 'BDO Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        text-decoration: none;
+        color: var(--White);
+        background-color: var(--Blue);
+        height: 42px;
+        width: 110px;
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
     .menu-link:hover {
         color: var(--Blue);
+    }
+
+    .menu-link-k-button:hover {
+        color: var(--Black);
+        background: var(--White);
+        border: none;
     }
 }
 
