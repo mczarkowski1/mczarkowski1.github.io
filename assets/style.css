@@ -234,7 +234,7 @@ header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 28px;
     color: var(--White);
     cursor: default;
 }
@@ -249,6 +249,12 @@ header {
     font-weight: 400;
     font-size: 18px;
     color: var(--White);
+    cursor: default;
+}
+
+.heading-color {
+    color: var(--Blue);
+    text-decoration: none;
     cursor: default;
 }
 
