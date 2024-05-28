@@ -900,7 +900,7 @@ header {
 /* ABOUT PAGE */
 
 .about-container {
-    height: 2100px;
+    height: 2400px;
     width: auto;
     background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
 }
