@@ -1124,6 +1124,186 @@ header {
 
 
 
+/* PLAKATY */
+
+.art-container {
+    height: 200px;
+    width: auto;
+}
+
+.posters-texts {
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.posters-texts-content {
+    text-align: center;
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--Grey);
+}
+
+@media only screen and (min-width: 768px) {
+    .project-content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .project-content {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .project-content {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .posters-content {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .project-content {
+        margin-left: 170px;
+        margin-right: 170px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .project-content {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .project-content {
+        margin-left: 225px;
+        margin-right: 225px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 2700px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 2900px) {
+    .project-content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .posters-texts-content {
+        font-size: 2.6rem;
+    }
+}
+
+
+
+
+
+
 /* THANKS PAGE */
 
 .thx-container {
