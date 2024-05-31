@@ -1137,6 +1137,10 @@ header {
     margin-bottom: 60px;
 }
 
+.posters-title-description {
+    font-size: 22px
+}
+
 .posters-texts-content {
     text-align: center;
     font-family: 'BDO Grotesk', sans-serif;
@@ -1145,12 +1149,31 @@ header {
     color: var(--Grey);
 }
 
+@media only screen and (min-width: 400px) {
+    .project-content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .posters-title-description {
+        font-size: 1rem
+    }
+
+    .posters-texts-content {
+        font-size: 1.2rem;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .project-content {
         margin-left: 40px;
         margin-right: 40px;
     }
 
+    .posters-title-description {
+        font-size: 1.3rem
+    }
+    
     .posters-texts-content {
         font-size: 1.2rem;
     }
