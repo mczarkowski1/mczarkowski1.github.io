@@ -75,7 +75,7 @@
             <div class="project-content">
                 <div class="posters-texts">
                     <p class="posters-texts-content">
-                        Chcesz kupić plakat? <a class="in-project-url" href="mailto:mczarkowski.kontakt@gmail.com?subject=Kupuję%20plakat.&body=Hej!%20Chcę%20kupić%20plakat(y):%20" target="_blank">Napisz do mnie.</a>
+                        Chcesz kupić plakat? <a class="in-project-url" href="mailto:mczarkowski.kontakt@gmail.com?subject=Kupuję%20plakat.&body=Hej!%20Chcę%20kupić%20plakat(y):%20" id="mailLink">Napisz do mnie.</a>
                     </p>
                 </div>
                 <div class="project-images">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <div class="project-btn-content">
-                    <a href="mailto:mczarkowski.kontakt@gmail.com?subject=Kupuję%20plakat.&body=Hej!%20Chcę%20kupić%20plakat(y):%20" class="project-btn-url">
+                    <a href="mailto:mczarkowski.kontakt@gmail.com?subject=Kupuję%20plakat.&body=Hej!%20Chcę%20kupić%20plakat(y):%20" id="mailLink" class="project-btn-url">
                         <button class="project-btn">Kup plakat</button>
                     </a>
                 </div>
@@ -141,5 +141,21 @@
             </div>
         </footer>
         <script src="./assets/main.js"></script>
+        <script>
+        document.getElementById('mailLink').addEventListener('click', function(event) {
+            event.preventDefault();  // Zapobiega domyślnemu zachowaniu linku
+
+            var mailtoLink = this.href;
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/android|iPad|iPhone|iPod/i.test(userAgent)) {
+                // Jeśli urządzenie mobilne, otwórz link bezpośrednio
+                window.location.href = mailtoLink;
+            } else {
+                // Jeśli komputer, otwórz link w nowej karcie
+                window.open(mailtoLink, '_blank');
+            }
+        });
+    </script>
     </body>
 </html>
