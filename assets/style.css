@@ -540,11 +540,15 @@ header {
 .project-img {
     height: auto;
     width: 100%;
-    transition: all 0.3s ease-in-out;
 }
 
-.project-img:hover {
-    filter: brightness(140%);
+.project {
+    transition: all 0.2s ease-in-out;
+}
+
+.project:hover {
+    filter: brightness(120%);
+    transform: scale(1.02);
 }
 
 .project-url {
@@ -585,11 +589,15 @@ header {
     .project-img {
         height: auto;
         width: 100%;
-        transition: all 0.3s ease-in-out;
     }
 
-    .project-img:hover {
-        filter: brightness(140%);
+    .project {
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .project:hover {
+        filter: brightness(120%);
+        transform: scale(1.02);
     }
 
     .project-url {
