@@ -1450,6 +1450,52 @@ header {
 
 
 
+/* 404 */
+
+.a404-img-file {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+
+.a404-text-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 200px;
+    color: var(--White);
+}
+
+.a404-text {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.a404-bottom-text {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+    .a404-img-file {
+        max-width: 50%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        display: block;
+        margin: auto 25%;
+    }
+}
+
+
+
+
+
+
 /* FOOTER */
 
 footer {
