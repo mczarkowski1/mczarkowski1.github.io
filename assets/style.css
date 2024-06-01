@@ -1464,7 +1464,7 @@ header {
     position: relative;
     z-index: 1;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     color: var(--White);
 }
 
@@ -1488,6 +1488,14 @@ header {
         z-index: -1;
         display: block;
         margin: auto 25%;
+    }
+
+    .a404-text-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin-bottom: 200px;
+        color: var(--White);
     }
 }
 
