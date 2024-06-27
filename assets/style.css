@@ -635,17 +635,34 @@ header {
     margin-bottom: 200px;
 }
 
+.project-text-info {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.project-text-info-content {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--Grey);
+}
+
 .project-texts {
     height: auto;
     width: 100%;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
 .projects-texts-content {
-    text-align: center;
+    text-align: left;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: var(--Grey);
 }
 
@@ -710,6 +727,10 @@ header {
         margin-right: 40px;
     }
 
+    .project-text-info-content {
+        font-size: 1.2rem;
+    }
+
     .projects-texts-content {
         font-size: 1.2rem;
     }
@@ -719,6 +740,10 @@ header {
     .project-content {
         margin-left: 80px;
         margin-right: 80px;
+    }
+
+    .project-text-info-content {
+        font-size: 1.3rem;
     }
 
     .projects-texts-content {
@@ -732,6 +757,10 @@ header {
         margin-right: 110px;
     }
 
+    .project-text-info-content {
+        font-size: 1.4rem;
+    }
+
     .projects-texts-content {
         font-size: 1.4rem;
     }
@@ -741,6 +770,10 @@ header {
     .project-content {
         margin-left: 140px;
         margin-right: 140px;
+    }
+
+    .project-text-info-content {
+        font-size: 1.5rem;
     }
 
     .projects-texts-content {
@@ -754,6 +787,10 @@ header {
         margin-right: 170px;
     }
 
+    .project-text-info-content {
+        font-size: 1.6rem;
+    }
+
     .projects-texts-content {
         font-size: 1.6rem;
     }
@@ -763,6 +800,10 @@ header {
     .project-content {
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+    .project-text-info-content {
+        font-size: 1.7rem;
     }
 
     .projects-texts-content {
@@ -776,6 +817,10 @@ header {
         margin-right: 225px;
     }
 
+    .project-text-info-content {
+        font-size: 1.8rem;
+    }
+
     .projects-texts-content {
         font-size: 1.8rem;
     }
@@ -785,6 +830,10 @@ header {
     .project-content {
         margin-left: 250px;
         margin-right: 250px;
+    }
+
+    .project-text-info-content {
+        font-size: 1.9rem;
     }
 
     .projects-texts-content {
@@ -798,6 +847,10 @@ header {
         margin-right: 250px;
     }
 
+    .project-text-info-content {
+        font-size: 2rem;
+    }
+
     .projects-texts-content {
         font-size: 2rem;
     }
@@ -807,6 +860,10 @@ header {
     .project-content {
         margin-left: 250px;
         margin-right: 250px;
+    }
+
+    .project-text-info-content {
+        font-size: 2.1rem;
     }
 
     .projects-texts-content {
@@ -820,6 +877,10 @@ header {
         margin-right: 250px;
     }
 
+    .project-text-info-content {
+        font-size: 2.2rem;
+    }
+
     .projects-texts-content {
         font-size: 2.2rem;
     }
@@ -829,6 +890,10 @@ header {
     .project-content {
         margin-left: 250px;
         margin-right: 250px;
+    }
+
+    .project-text-info-content {
+        font-size: 2.4rem;
     }
 
     .projects-texts-content {
@@ -842,6 +907,10 @@ header {
         margin-right: 250px;
     }
 
+    .project-text-info-content {
+        font-size: 2.5rem;
+    }
+
     .projects-texts-content {
         font-size: 2.5rem;
     }
@@ -851,6 +920,10 @@ header {
     .project-content {
         margin-left: 250px;
         margin-right: 250px;
+    }
+
+    .project-text-info-content {
+        font-size: 2.6rem;
     }
 
     .projects-texts-content {
