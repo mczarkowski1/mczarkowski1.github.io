@@ -687,6 +687,11 @@ header {
     margin-bottom: 8px;
 }
 
+.animation {
+    height: auto;
+    width: 100%;
+}
+
 .project-btn-content {
     margin-top: 40px;
     align-items: center;
