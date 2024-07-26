@@ -74,23 +74,21 @@
                     </div>
                 </div>
                 <section class="contact">
-                    <form class="contact-form" action="https://formsubmit.co/mczarkowski.kontakt@gmail.com" method="POST">
+                    <form class="contact-form" id="contactform" action="https://formsubmit.io/send/26f01614-bfa5-490a-a8f8-10781db64a32" method="POST">
+                        <input name="_redirect" type="hidden" id="name" value="https://mczarkowski.com/dziekuje">
                         <div class="contact-form-field">
                             <label for="name">Imię i nazwisko*</label>
-                            <input type="text" name="name" required />
+                            <input type="text" name="name" id="name" required />
                         </div>
                         <div class="contact-form-field">
                             <label for="email">Email*</label>
-                            <input type="email" name="email" required />
+                            <input type="email" name="email" id="email" required />
                         </div>
                         <div class="contact-form-field">
                             <label for="message">Twoja wiadomość*</label>
-                            <textarea name="message" cols="30" rows="12" placeholder="Chcę zlecić projekt dla firmy zajmującej się..." required></textarea>
+                            <textarea name="message" id="comment" cols="30" rows="12" placeholder="Chcę zlecić projekt dla firmy zajmującej się..." required></textarea>
                         </div>
-                        <input type="hidden" name="_subject" value="(mczarkowski) Nowe zlecenie">
-                        <input type="hidden" name="_next" id="name" value="https://mczarkowski.com/dziekuje">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_captcha" value="false">
+                        <input name="_formsubmit_id" type="text" style="display:none">
                         <button type="submit" class="contact-form-btn">Wyślij</button>
                     </form>
                 </section>
