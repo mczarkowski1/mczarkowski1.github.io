@@ -949,11 +949,11 @@ header {
 }
 
 .projects-button-go {
-    height: 4.6rem;
-    width: 20rem;
+    height: 3rem;
+    width: 12rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: var(--White);
     background: var(--Blue);
     border: none;
@@ -974,7 +974,7 @@ header {
 @media only screen and (min-width: 768px) {
     .projects-button-go {
         height: 4.6rem;
-        width: 18rem;
+        width: 17rem;
         font-size: 1.1rem;
         border-radius: 3rem;
     }
