@@ -17,22 +17,6 @@
 
             gtag('config', 'G-Q41F842BK5');
         </script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-        $(document).ready(function() {
-          $("html").on("submit","#contact_form",function(e){
-            e.preventDefault();
-            $("#send_form_status").html('').hide();
-            var data=$("#contact_form").serialize();
-            $.post("/send_form.php",data,function(res){
-              $("#send_form_status").html(res.msg).show();
-              if(res.status==1){ 
-                $("#contact_form")[0].reset();
-              } 
-            });
-          });
-        });
-        </script>
         <meta charset="UTF-8">
         <title>Kontakt — Mikołaj Czarkowski</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -90,22 +74,19 @@
                     </div>
                 </div>
                 <section class="contact">
-                    <div id="send_form_status"></div>
-                    <form class="contact-form" method="post" action="/assets/send_form.php" id="contact_form">
+                    <form class="contact-form" id="contactform" action="https://formsubmit.io/send/26f01614-bfa5-490a-a8f8-10781db64a32" method="POST">
                         <input name="_redirect" type="hidden" id="name" value="https://mczarkowski.com/dziekuje">
                         <div class="contact-form-field">
-                            <label for="name">Imię i nazwisko*</label>
-                            <input type="text" name="name" id="name" required />
+                            <input type="text" name="name" id="name" placeholder="Imię i nazwisko" required />
                         </div>
                         <div class="contact-form-field">
-                            <label for="email">Email*</label>
-                            <input type="email" name="email" id="email" required />
+                            <input type="email" name="email" id="email" placeholder="Adres email" required />
                         </div>
                         <div class="contact-form-field">
-                            <label for="message">Twoja wiadomość*</label>
-                            <textarea name="message" id="comment" cols="30" rows="12" placeholder="Chcę zlecić projekt dla firmy zajmującej się..." required></textarea>
+                            <textarea name="message" id="comment" cols="30" rows="12" placeholder="Twoja wiadomość.   Chcę zlecić projekt dla firmy zajmującej się..." required></textarea>
                         </div>
-                        <button id="sendBtn" type="submit" class="contact-form-btn">Wyślij</button>
+                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <button type="submit" class="contact-form-btn">Wyślij</button>
                     </form>
                 </section>
             </div>
@@ -141,4 +122,4 @@
         </footer>
         <script src="./assets/main.js"></script>
     </body>
-</html> 
+</html>
