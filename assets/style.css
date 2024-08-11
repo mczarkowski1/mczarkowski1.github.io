@@ -1126,34 +1126,25 @@ header {
     margin: 1rem;
 }
 
-.contact-form-field textarea {
-    font-family: 'BDO Grotesk', sans-serif;
-    font-weight: 300;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 0.2rem;
+.contact-form-field input, .contact-form-field textarea {
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1rem;
-    color: var(--White);
 }
 
 .contact-form input, .contact-form textarea {
     width: 100%;
-    font-size: 1rem;
     padding: 0.5rem 0.2rem;
-    border-radius: 0.2rem;
+    border-radius: 0rem;
     border: 5px solid var(--White);
 }
 
 .contact-form-btn {
-    height: 4.6rem;
-    width: 20rem;
+    height: 3rem;
+    width: 11rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: var(--White);
     background: var(--Blue);
     border: none;
@@ -1175,23 +1166,15 @@ header {
         width: 65%;
     }
 
-    .contact-form-field textarea {
-        font-family: 'BDO Grotesk', sans-serif;
-        font-weight: 300;
-    }
-
-    .contact-form label {
-        display: block;
-        margin-bottom: 0.2rem;
+    .contact-form-field input, .contact-form-field textarea {
         font-family: 'BDO Grotesk', sans-serif;
         font-weight: 300;
         font-size: 1rem;
-        color: var(--White);
     }
 
     .contact-form-btn {
         height: 4.6rem;
-        width: 20rem;
+        width: 17rem;
         font-family: 'BDO Grotesk', sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
