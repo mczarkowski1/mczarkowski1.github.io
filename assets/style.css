@@ -215,6 +215,10 @@ header {
         background: var(--White);
         border: none;
     }
+
+    .logo-file {
+    height: 40px;
+    }
 }
 
 
