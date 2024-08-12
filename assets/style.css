@@ -68,12 +68,12 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: var(--White);
     font-weight: 300;
     height: 100vh;
     width: 100vw;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
+    background: var(--Black);
     position: absolute;
     left: 0;
     top: 0;
@@ -83,6 +83,7 @@ header {
 .menu.active {
     transform: translateX(0);
     display: flex;
+    padding-top: 80px;
 }
 
 .menu-link {
@@ -97,7 +98,7 @@ header {
 .menu-link-k-button {
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: var(--White), none;
     background: transparent;
     border: none;
@@ -106,12 +107,12 @@ header {
 }
 
 .logo-file {
-    height: 40px;
+    height: 30px;
 }
 
 .burger {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 1.8rem;
+    width: 1.8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -120,7 +121,7 @@ header {
     align-items: flex-end;
     cursor: pointer;
     position: relative; 
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .burger.active {
@@ -136,7 +137,7 @@ header {
     height: 0.125rem;
     border-radius: 0rem;
     background: var(--Blue);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .burger.active > :nth-child(1) {
@@ -187,7 +188,7 @@ header {
         font-size: 18px;
         position: relative;
         cursor: pointer;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
 
     .menu-link-k-button {
@@ -202,7 +203,7 @@ header {
         border: none;
         border-radius: 3rem;
         cursor: pointer;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
     
     .menu-link:hover {
@@ -284,7 +285,7 @@ header {
     border-color: var(--Blue);
     border-radius: 3rem;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .intr-button-about:hover {
@@ -304,13 +305,13 @@ header {
     border: none;
     border-radius: 3rem;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .intr-button-icon {
     margin-left: 5px;
     height: 11px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .intr-button-contact:hover {
@@ -472,12 +473,12 @@ header {
     font-weight: 300;
     text-decoration: none;
     color: var(--Grey);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .review-cta-url:hover {
     color: var(--Black);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 @media only screen and (min-width: 768px) {
@@ -730,7 +731,7 @@ header {
 
 .project-btn {
     height: 4.6rem;
-    width: 18rem;
+    width: 17rem;
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -986,7 +987,7 @@ header {
     border: none;
     border-radius: 3rem;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .projects-button-go:hover {
@@ -1630,7 +1631,7 @@ footer {
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .ftr-menu-link:hover {
@@ -1641,7 +1642,7 @@ footer {
     height: 30px;
     width: 30px;
     margin: 15px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .icon:hover {
@@ -1672,7 +1673,7 @@ footer {
     .ftr-logo-file {
         display:inline;
         height: 40px;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
 
     .ftr-menu {
@@ -1686,6 +1687,6 @@ footer {
         height: 26px;
         width: 45px;
         margin: 1px;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
 }
