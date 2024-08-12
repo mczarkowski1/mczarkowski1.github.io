@@ -141,7 +141,7 @@ header {
 }
 
 .burger.active > :nth-child(1) {
-    transform: rotate(-45deg) translateY(1rem);
+    transform: rotate(-45deg) translateY(0.6rem);
 }
 
 .burger.active > :nth-child(2) {
@@ -150,7 +150,7 @@ header {
 }
 
 .burger.active > :nth-child(3) {
-    transform: rotate(45deg) translateY(-0.9rem);
+    transform: rotate(45deg) translateY(-0.7rem);
 }
 
 
