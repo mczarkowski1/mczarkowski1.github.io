@@ -696,6 +696,7 @@ header {
     font-weight: 300;
     font-size: 1.2rem;
     color: var(--Grey);
+    text-align: justify;
 }
 
 .in-project-url {
@@ -1060,6 +1061,7 @@ header {
 
 .about-text-content {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .about-text-content-differentiators {
