@@ -1023,7 +1023,7 @@ header {
 .about-container {
     height: 2400px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 35%);
 }
 
 .about-title {
@@ -1091,6 +1091,7 @@ header {
 @media only screen and (min-width: 768px){
     .about-container {
         height: 2000px;
+        background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
     }
     
     .about-content {
@@ -1143,7 +1144,9 @@ header {
 /* CONTACT PAGE */
 
 .contact-container {
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
+    height: 2400px;
+    width: auto;
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 35%);
 }
 
 .contact {
@@ -1201,6 +1204,11 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+    .contact-container {
+        height: 2000px;
+        background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
+    }
+    
     .contact-form {
         width: 65%;
     }
