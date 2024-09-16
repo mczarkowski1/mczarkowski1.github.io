@@ -1021,9 +1021,9 @@ header {
 /* ABOUT PAGE */
 
 .about-container {
-    height: 2400px;
+    height: 2600px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 35%);
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
 }
 
 .about-title {
@@ -1144,9 +1144,9 @@ header {
 /* CONTACT PAGE */
 
 .contact-container {
-    height: 1400px;
+    height: 1000px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 35%);
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
 }
 
 .contact {
@@ -1156,7 +1156,7 @@ header {
 .contact-form {
     margin: 50px auto;
     margin-bottom: 40px;
-    width: 80%;
+    width: 90%;
 }
 
 .contact-form-field {
@@ -1205,12 +1205,12 @@ header {
 
 @media only screen and (min-width: 768px) {
     .contact-container {
-        height: 1000px;
+        height: 1400px;
         background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
     }
     
     .contact-form {
-        width: 80%;
+        width: 65%;
     }
 
     .contact-form-field input, .contact-form-field textarea {
