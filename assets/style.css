@@ -1144,7 +1144,7 @@ header {
 /* CONTACT PAGE */
 
 .contact-container {
-    height: 2400px;
+    height: 1400px;
     width: auto;
     background: radial-gradient(circle at 50% 0%, #192a88, #050505 35%);
 }
@@ -1205,7 +1205,7 @@ header {
 
 @media only screen and (min-width: 768px) {
     .contact-container {
-        height: 2000px;
+        height: 1000px;
         background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
     }
     
