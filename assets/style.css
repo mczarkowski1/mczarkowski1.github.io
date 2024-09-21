@@ -11,7 +11,7 @@
     src: url("../assets/fonts/BDOGrotesk-VF.ttf")
     format("truetype supports variations"),url("../assets/fonts/BDOGrotesk-VF.ttf")
     format("truetype-variations");
-    font-weight: 300 400 600 900;
+    font-weight: 300 400 600 800 900;
 }
 
 
@@ -37,6 +37,7 @@ body {
     /* Colors */
     --White: #f3f3f3;
     --Grey: #b1b1b1; 
+    --DarkGrey: #292929; 
     --Black: #050505;
     --Blue: #3251ff;
 }
