@@ -1037,24 +1037,38 @@ header {
     margin: 0 auto;
 }
 
-.service-box-1, .service-box-4, .service-box-5 {
-    grid-column: span 2;
+.service-box-1 {
+    grid-column: span 3;
     width: 100%;
-    height: 550px;
+    height: 366px;
+    /*margin-bottom: 40px;*/
     background-color: var(--DarkGrey);
     padding: 24px;
     text-align: left;
     align-content: end;
+    transition: all 0.2s ease-in-out;   
 }
 
-.service-box-2, .service-box-3, .service-box-6 {
-    grid-column: span 1;
+.service-box-2, .service-box-5 {
+    grid-column: span 2;
     width: 100%;
-    height: 550px;
+    height: 500px;
     background-color: var(--DarkGrey);
     padding: 24px;
     text-align: left;
     align-content: end;
+    transition: all 0.2s ease-in-out;
+}
+
+.service-box-3, .service-box-4 {
+    grid-column: span 1;
+    width: 100%;
+    height: 500px;
+    background-color: var(--DarkGrey);
+    padding: 24px;
+    text-align: left;
+    align-content: end;
+    transition: all 0.2s ease-in-out;
 }
 
 .service-descr {
@@ -1110,7 +1124,7 @@ header {
         align-items: start;
     }
 
-    .service-box-1, .service-box-2, .service-box-3, .service-box-4, .service-box-5, .service-box-6 {
+    .service-box-1, .service-box-2, .service-box-3, .service-box-4, .service-box-5 {
         grid-column: span 1;
         background: var(--DarkGrey);
         text-align: left;
