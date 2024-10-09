@@ -1289,6 +1289,7 @@ header {
     font-family: 'BDO Grotesk', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+    resize: none;
 }
 
 .contact-form input, .contact-form textarea {
