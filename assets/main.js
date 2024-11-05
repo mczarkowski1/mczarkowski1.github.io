@@ -1,16 +1,30 @@
 const header = document.querySelector('header');
+let lastScroll = 0;
+const scrollThreshold = 200; // próg scrollowania w pikselach
+let accumulatedScroll = 0; // gromadzi przesunięcie w dół
 
-const stickHeader = () => {
-  const scroll = window.scrollY;
+const toggleHeaderVisibility = () => {
+  const currentScroll = window.scrollY;
+  
+  // Scrollowanie w dół
+  if (currentScroll > lastScroll) {
+    accumulatedScroll += currentScroll - lastScroll;
 
-  if (scroll > 0) {
-    header.classList.add('active');
-  } else {
-    header.classList.remove('active');
+    if (accumulatedScroll > scrollThreshold) {
+      // Gdy przekroczymy próg, chowamy header
+      header.classList.add('hidden');
+    }
+  } 
+  // Scrollowanie w górę
+  else {
+    header.classList.remove('hidden');
+    accumulatedScroll = 0; // resetujemy licznik przy scrollowaniu w górę
   }
+
+  lastScroll = currentScroll;
 };
 
-window.addEventListener('scroll', stickHeader);
+window.addEventListener('scroll', toggleHeaderVisibility);
 
 const menu = document.querySelector('.menu');
 const burgerBtn = document.querySelector('.burger');
