@@ -52,7 +52,7 @@ body {
 
 
 
-/* HEADER */
+/** HEADER **/
 
 header {
     display: flex;
@@ -233,7 +233,7 @@ header.hidden {
 
 
 
-/* INTRO */
+/** INTRO **/
 
 .intro {
     background: radial-gradient(circle at 50% 100%, #192a88, #050505 45%); 
@@ -388,7 +388,7 @@ header.hidden {
 
 
 
-/* REVIEWS */
+/*reviews*/
 
 .reviews-section {
     padding-top: 60px;
@@ -516,7 +516,7 @@ header.hidden {
 
 
 
-/*SECTION TITLE */
+/*section title*/
 
 .section-title {
     width: 100%;
@@ -565,7 +565,7 @@ header.hidden {
 
 
 
-/* PROJECTS */
+/** PROJECTS **/
 
 .projects-section {
     width: auto;
@@ -665,7 +665,7 @@ header.hidden {
 
 
 
-/* PROJECTS SUBPAGES */
+/** PROJECTS sub **/
 
 .project-content {
     margin-top: 100px;
@@ -981,7 +981,7 @@ header.hidden {
 
 
 
-/* PROJECTS BUTTON */
+/** PROJECTS BUTTON **/
 
 .projects-button {
     text-align: center;
@@ -1026,12 +1026,12 @@ header.hidden {
 
 
 
-/* USLUGI */
+/** SERVICES **/
 
 .services-container {
     height: 2800px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 24%);
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 19%);
 }
 
 .services {
@@ -1160,14 +1160,14 @@ header.hidden {
 
 
 
+/** SERVICES sub **/
 
 
 
 
 
 
-
-/* ABOUT PAGE */
+/** ABOUT **/
 
 .about-container {
     height: 2600px;
@@ -1290,7 +1290,7 @@ header.hidden {
 
 
 
-/* CONTACT PAGE */
+/** CONTACT **/
 
 .contact-container {
     height: 1000px;
@@ -1392,7 +1392,7 @@ header.hidden {
 
 
 
-/* PLAKATY */
+/** POSTERS **/
 
 .art-container {
     height: 200px;
@@ -1595,7 +1595,7 @@ header.hidden {
 
 
 
-/* THANKS PAGE */
+/** MESSAGE SENT **/
 
 .thx-container {
     background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
@@ -1710,7 +1710,7 @@ header.hidden {
 
 
 
-/* 404 */
+/** ERROR 404 **/
 
 .a404-img-file {
     max-width: 100%;
@@ -1764,7 +1764,7 @@ header.hidden {
 
 
 
-/* FOOTER */
+/** FOOTER **/
 
 footer {
     bottom: 0;
