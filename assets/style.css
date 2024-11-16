@@ -1764,6 +1764,50 @@ header.hidden {
 
 
 
+/** PRE-FOOTER **/
+
+.pre-footer {
+    position: relative;
+    background-color: var(--DarkGrey);
+    height: 220px;
+    width: 100%;
+    align-content: center;
+}
+
+.pre-footer-text {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: var(--White);
+    margin-right: 5%;
+}
+
+.pre-footer-btn {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .pre-footer {
+        height: 220px;
+    }
+
+    .pre-footer-text {
+        font-size: 22px;
+        color: var(--White);
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
 /** FOOTER **/
 
 footer {
