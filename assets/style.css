@@ -1087,8 +1087,8 @@ header.hidden {
 
 .service-heading {
     font-family: 'BDO Grotesk', sans-serif;
-    font-weight: 800;
-    font-size: 33px;
+    font-weight: 300;
+    font-size: 34px;
     color: var(--White);
     margin-bottom: 20px;
 }
@@ -1153,7 +1153,7 @@ header.hidden {
     }
     
     .service-heading {
-        font-size: 23px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
 }
