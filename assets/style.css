@@ -1335,7 +1335,7 @@ header.hidden {
     margin: 0;
 }
 
-.active, .accordion:hover {
+.faq-active, .accordion:hover {
     color: var(--Blue);
 }
 
@@ -1364,7 +1364,7 @@ header.hidden {
     margin-left: 5px;
 }
 
-.active:after {
+.faq-active:after {
     content: "\2212"; /* Unicode character for "minus" sign (-) */
     color: var(--White);
 }
