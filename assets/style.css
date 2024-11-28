@@ -1285,6 +1285,60 @@ header.hidden {
     }
 }
 
+/*faq*/
+.accordion {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    background-color: var(--Black);
+    color: var(--Grey);
+    cursor: pointer;
+    padding: 20px 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-bottom: 1px solid var(--White);
+}
+
+.accordion{
+    font-size: 19px;
+    margin: 0;
+}
+
+.active, .accordion:hover {
+    color: var(--Blue);
+}
+
+.panel {
+    padding: 0px 25px;
+    background-color: var(--Black);
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    color: var(--Grey);
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p{
+    padding: 20px 0px;
+    font-size: 19px;
+}
+
+.accordion:after {
+    content: "\002B"; /* Unicode character for "plus" sign (+) */
+    font-size: 18px;
+    color: var(--White);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+    color: var(--White);
+}
+
 
 
 
