@@ -1299,6 +1299,7 @@ header.hidden {
     outline: none;
     transition: 0.4s;
     border-bottom: 1px solid var(--White);
+    text-align: justify;
 }
 
 .accordion{
@@ -1319,6 +1320,7 @@ header.hidden {
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    text-align: justify;
 }
 
 .panel p{
