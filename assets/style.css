@@ -1170,9 +1170,9 @@ header.hidden {
 /** ABOUT **/
 
 .about-container {
-    height: 2600px;
+    height: 2100px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 10%);
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 12%);
 }
 
 .about-title {
@@ -1237,10 +1237,29 @@ header.hidden {
     padding-left: 30px;
 }
 
+.clients {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.client-logo {
+    max-width: 100px;
+    filter: brightness(0) invert(1);
+    opacity: 0.25;
+    transition: opacity 0.2s;
+}
+
+.client-logo:hover {
+    opacity: 1;
+}
+
 @media only screen and (min-width: 768px){
     .about-container {
-        height: 2000px;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
+        height: 2600px;
+        background: radial-gradient(circle at 50% 0%, #192a88, #050505 23%);
     }
     
     .about-content {
@@ -1282,6 +1301,15 @@ header.hidden {
     
     .about-left-list-content {
         padding-left: 30px;
+    }
+
+    .clients {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 80px;
+    }
+
+    .client-logo {
+        max-width: 150px;
     }
 }
 
