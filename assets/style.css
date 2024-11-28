@@ -1330,7 +1330,7 @@ header.hidden {
 
 .accordion:after {
     content: "\002B"; /* Unicode character for "plus" sign (+) */
-    font-size: 18px;
+    font-size: 19px;
     color: var(--White);
     float: right;
     margin-left: 5px;
@@ -1341,7 +1341,19 @@ header.hidden {
     color: var(--White);
 }
 
+@media only screen and (max-width: 768px){
+    .accordion{
+        font-size: 18px;
+    }
 
+    .panel p{
+        font-size: 18px;
+    }
+
+    .accordion:after {
+        font-size: 18px;
+    }
+}
 
 
 
