@@ -1363,9 +1363,9 @@ header.hidden {
     
     /*audyt*/
     .audyt-container {
-        height: 3600px;
+        height: 4200px;
         width: auto;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 7%);
+        background: radial-gradient(circle at 50% 0%, #192a88, #050505 6%);
     } 
 }
 
