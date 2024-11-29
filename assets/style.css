@@ -1419,6 +1419,7 @@ header.hidden {
 .about-top-text-content h2 {
     font-family: 'Switzer', sans-serif;
     color: var(--White);
+    font-size: 24px;
     margin-bottom: 15px;
 }
 
@@ -1498,7 +1499,7 @@ header.hidden {
     .about-top-text-content h2 {
         font-family: 'Switzer', sans-serif;
         color: var(--White);
-        font-size: 24px;
+        font-size: 27px;
         margin-bottom: 15px;
     }
     
