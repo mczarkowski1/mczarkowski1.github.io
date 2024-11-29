@@ -1916,10 +1916,10 @@ header.hidden {
 /** MESSAGE SENT **/
 
 .thx-container {
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 45%);
-    padding-top: 200px;
-    padding-left: 22%;
-    padding-right: 22%;
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 55%);
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
     cursor: default;
 }
 
@@ -1942,13 +1942,14 @@ header.hidden {
 .text {
     font-family: 'Switzer', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
 
 .thx-bottom-text {
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .thx-btn-content {
@@ -1986,7 +1987,35 @@ header.hidden {
     text-decoration: none;
 }
 
+.thx-icon {
+    height: 26px;
+    width: 26px;
+    margin: 15px;
+    filter: invert(10%);
+    transition: all 0.2s ease-in-out;
+}
+
+.thx-icon:hover {
+    filter: invert(100%);
+}
+
+.thx-socials {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.thx-social {
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
+    .thx-container {
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 50%);
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
     .thx-text {
         text-align: center;
         margin-bottom: 200px;
@@ -2019,6 +2048,13 @@ header.hidden {
         margin: 0 auto;
         padding: 0.5rem;
         cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .thx-icon {
+        height: 26px;
+        width: 45px;
+        margin: 1px;
         transition: all 0.2s ease-in-out;
     }
 }
@@ -2170,8 +2206,8 @@ footer {
 }
 
 .icon {
-    height: 30px;
-    width: 30px;
+    height: 26px;
+    width: 26px;
     margin: 15px;
     transition: all 0.2s ease-in-out;
 }
