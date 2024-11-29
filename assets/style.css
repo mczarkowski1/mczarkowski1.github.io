@@ -14,6 +14,22 @@
     font-weight: 300 400 600 800 900;
 }
 
+@font-face {
+    font-family: 'Switzer';
+    src: url("../assets/fonts/Switzer-Variable.ttf")
+    format("truetype supports variations"),url("../assets/fonts/Switzer-Variable.ttf")
+    format("truetype-variations");
+    font-weight: 300 500 900;
+}
+
+@font-face {
+    font-family: 'Switzer Italic';
+    src: url("../assets/fonts/Switzer-VariableItalic.ttf")
+    format("truetype supports variations"),url("../assets/fonts/Switzer-VariableItalic.ttf")
+    format("truetype-variations");
+    font-weight: 300 500 900;
+}
+
 
 
 
@@ -95,7 +111,7 @@ header.hidden {
 
 .menu-link {
     margin: 50px;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     color: var(--White), none;
     text-decoration: none;
@@ -103,7 +119,7 @@ header.hidden {
 }
 
 .menu-link-k-button {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     color: var(--White), none;
@@ -190,7 +206,7 @@ header.hidden {
 
     .menu-link {
         margin: 0px;
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 18px;
         position: relative;
@@ -199,7 +215,7 @@ header.hidden {
     }
 
     .menu-link-k-button {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 18px;
         text-decoration: none;
@@ -287,7 +303,7 @@ header.hidden {
     height: 4.4rem;
     width: 15rem;
     margin-bottom: 15px;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     background: transparent;
@@ -308,7 +324,7 @@ header.hidden {
 .intr-button-contact {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -410,7 +426,7 @@ header.hidden {
 .testimonials {
     height: 380px;
     display: flex;
-    width: calc(380px); /* Szerokość wszystkich opinii */
+    width: calc(380px);
     animation: slide 15s infinite linear;
 }
 
@@ -451,12 +467,12 @@ header.hidden {
 }
 
 .review-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
 }
 
 .author {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 500;
 }
 
@@ -526,7 +542,7 @@ header.hidden {
 .title-text {
     position: absolute;
     width: 100%;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: var(--White);
@@ -547,7 +563,7 @@ header.hidden {
     .title-text {
         position: center;
         width: 100%;
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 40px;
         color: var(--White);
@@ -598,13 +614,13 @@ header.hidden {
 }
 
 .project-url-p {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 .meta {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
     margin-top: 0px;
@@ -647,13 +663,13 @@ header.hidden {
     }
 
     .project-url-p {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 1.2rem;
     }
 
     .meta {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 1.2rem;
         margin-top: 9px;
@@ -684,7 +700,7 @@ header.hidden {
 }
 
 .project-text-info-content {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     color: var(--Grey);
@@ -699,7 +715,7 @@ header.hidden {
 
 .projects-texts-content {
     text-align: left;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     color: var(--Grey);
@@ -744,7 +760,7 @@ header.hidden {
 .project-btn {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -991,7 +1007,7 @@ header.hidden {
 .projects-button-go {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -1077,7 +1093,7 @@ header.hidden {
 }
 
 .service-descr {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: var(--Grey);
@@ -1086,8 +1102,8 @@ header.hidden {
 }
 
 .service-heading {
-    font-family: 'BDO Grotesk', sans-serif;
-    font-weight: 300;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 500;
     font-size: 34px;
     color: var(--White);
     margin-bottom: 20px;
@@ -1096,7 +1112,7 @@ header.hidden {
 .button-services {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -1179,7 +1195,7 @@ header.hidden {
 
 .service-title {
     width: 100%;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 40px;
     color: var(--White);
@@ -1188,7 +1204,7 @@ header.hidden {
 }
 
 .service-head-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 19px;
     color: var(--Grey);
@@ -1242,16 +1258,16 @@ header.hidden {
     text-align: left;
 }
 
-.service-tile-top-text {
-    font-family: 'BDO Grotesk', sans-serif;
-    font-weight: 300;
+.service-tile-top-text h3 {
+    font-family: 'Switzer', sans-serif;
+    font-weight: 700;
     color: var(--White); 
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
 .service-tile-bottom-text {
-    font-family: 'BDO Grotesk', sans-serif; 
+    font-family: 'Switzer', sans-serif; 
     font-weight: 300;
     font-size: 19px;
     color: var(--Grey);
@@ -1400,14 +1416,14 @@ header.hidden {
     padding-bottom: 50px;
 }
 
-.about-top-text-content {
-    font-family: 'BDO Grotesk', sans-serif;
+.about-top-text-content h2 {
+    font-family: 'Switzer', sans-serif;
     color: var(--White);
     margin-bottom: 15px;
 }
 
 .about-bottom-text-content {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     color: var(--White);
     font-weight: 300;
     font-size: 18px;
@@ -1479,15 +1495,15 @@ header.hidden {
         padding-bottom: 50px;
     }
     
-    .about-top-text-content {
-        font-family: 'BDO Grotesk', sans-serif;
+    .about-top-text-content h2 {
+        font-family: 'Switzer', sans-serif;
         color: var(--White);
-        font-size: 16px;
+        font-size: 24px;
         margin-bottom: 15px;
     }
     
     .about-bottom-text-content {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         color: var(--White);
         font-weight: 300;
         font-size: 19px;
@@ -1521,7 +1537,7 @@ header.hidden {
 
 /*faq*/
 .accordion {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     background-color: var(--Black);
     color: var(--Grey);
@@ -1548,7 +1564,7 @@ header.hidden {
 .panel {
     padding: 0px 25px;
     background-color: var(--Black);
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     color: var(--Grey);
     max-height: 0px;
@@ -1615,7 +1631,7 @@ header.hidden {
 }
 
 .contact-form-field input, .contact-form-field textarea {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     resize: none;
@@ -1631,7 +1647,7 @@ header.hidden {
 .contact-form-btn {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -1666,7 +1682,7 @@ header.hidden {
     }
 
     .contact-form-field input, .contact-form-field textarea {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 1rem;
     }
@@ -1674,7 +1690,7 @@ header.hidden {
     .contact-form-btn {
         height: 4.4rem;
         width: 15rem;
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 1rem;
         color: var(--White);
@@ -1713,7 +1729,7 @@ header.hidden {
 
 .posters-texts-content {
     text-align: center;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--Grey);
@@ -1924,13 +1940,13 @@ header.hidden {
 }
 
 .text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
 
 .thx-bottom-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 22px;
 }
@@ -1946,7 +1962,7 @@ header.hidden {
 .thx-btn {
     height: 4.4rem;
     width: 15rem;
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: var(--White);
@@ -1978,13 +1994,13 @@ header.hidden {
     }
 
     .text {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 700;
         font-size: 60px;
     }
 
     .thx-bottom-text {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 22px;
     }
@@ -1992,7 +2008,7 @@ header.hidden {
     .thx-btn {
         height: 4.4rem;
         width: 15rem;
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         font-weight: 300;
         font-size: 1rem;
         color: var(--White);
@@ -2031,13 +2047,13 @@ header.hidden {
 }
 
 .a404-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
 
 .a404-bottom-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 22px;
 }
@@ -2077,7 +2093,7 @@ header.hidden {
 }
 
 .pre-footer-text {
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 28px;
     color: var(--White);
@@ -2142,7 +2158,7 @@ footer {
 .ftr-menu-link {
     position: relative;
     color: var(--White);
-    font-family: 'BDO Grotesk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
