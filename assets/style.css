@@ -1162,6 +1162,212 @@ header.hidden {
 
 /** SERVICES sub **/
 
+.service-head-image {
+    padding-top: 60px;
+    width: 58%;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-head {
+    margin-top: -50px;
+    margin-bottom: 150px;
+}
+
+.service-title {
+    width: 100%;
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: var(--White);
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.service-head-text {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: var(--Grey);
+    margin-bottom: 50px;
+}
+
+.service-text {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.service-btn-content {
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service-tiles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.service-tile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.service-tile-img { 
+    flex: 0 1 250px;
+}
+
+.service-tile-number { 
+    display: none;
+}
+
+.service-tile-img img {
+    width: 100%;
+    height: auto;
+}
+
+.service-tile-text { 
+    max-width: 60%;
+    padding: 20px;
+    text-align: left;
+}
+
+.service-tile-top-text {
+    font-family: 'BDO Grotesk', sans-serif;
+    font-weight: 300;
+    color: var(--White); 
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.service-tile-bottom-text {
+    font-family: 'BDO Grotesk', sans-serif; 
+    font-weight: 300;
+    font-size: 19px;
+    color: var(--Grey);
+    text-align: justify;
+}
+
+.ending-service-text {
+    text-align: center;
+}
+
+.ending-service-btn-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+/*audyt*/
+.audyt-container {
+    height: 3800px;
+    width: auto;
+    background: radial-gradient(circle at 50% 0%, #192a88, #050505 14%);
+}
+
+
+
+/*MOBILE*/
+@media (max-width: 768px) {
+    .service-head-image {
+        padding-top: 40px;
+        width: 92%;
+        height: auto;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-head {
+        margin-top: -50px;
+        margin-bottom: 110px;
+    }
+
+    .service-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .service-head-text {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    .service-text {
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+
+    .service-tiles-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .service-tile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .service-tile-img {
+        order: -1;
+        flex: 80px;
+        max-width: 100%;
+        justify-content: flex;
+    }
+
+    .service-tile-img img {
+        width: 110px;
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .service-tile-text {
+        text-align: left;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .service-tile-top-text h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .service-tile-top-text h3 {
+        font-size: 18px;
+    }
+
+    .service-tile-bottom-text {
+        font-size: 18px;
+    }
+    
+    /*audyt*/
+    .audyt-container {
+        height: 3600px;
+        width: auto;
+        background: radial-gradient(circle at 50% 0%, #192a88, #050505 7%);
+    } 
+}
 
 
 
