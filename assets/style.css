@@ -7,14 +7,6 @@
 }
 
 @font-face {
-    font-family: 'BDO Grotesk';
-    src: url("../assets/fonts/BDOGrotesk-VF.ttf")
-    format("truetype supports variations"),url("../assets/fonts/BDOGrotesk-VF.ttf")
-    format("truetype-variations");
-    font-weight: 300 400 600 800 900;
-}
-
-@font-face {
     font-family: 'Switzer';
     src: url("../assets/fonts/Switzer-Variable.ttf")
     format("truetype supports variations"),url("../assets/fonts/Switzer-Variable.ttf")
@@ -54,8 +46,9 @@ body {
     --White: #f3f3f3;
     --Grey: #b1b1b1; 
     --DarkGrey: #1b1c1f; 
-    --Black: #050505;
+    --Black: #000000;
     --Blue: #3251ff;
+    --GradientBlue: #192a88;
 }
 
 ::selection {
@@ -252,7 +245,7 @@ header.hidden {
 /** INTRO **/
 
 .intro {
-    background: radial-gradient(circle at 50% 100%, #192a88, #050505 45%); 
+    background: radial-gradient(circle at 50% 100%, var(--GradientBlue), var(--Black) 45%); 
     padding-top: 100px;
     padding-bottom: 150px;
     text-align: center;
@@ -356,7 +349,7 @@ header.hidden {
 
 @media only screen and (min-width: 768px) {
     .intro {
-    background: radial-gradient(circle at 50% 100%, #192a88, #050505 45%); 
+    background: radial-gradient(circle at 50% 100%, var(--GradientBlue), var(--Black) 45%); 
     padding-top: 100px;
     padding-bottom: 500px;
     text-align: center;
@@ -1047,7 +1040,7 @@ header.hidden {
 .services-container {
     height: 2800px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 19%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 19%);
 }
 
 .services {
@@ -1142,7 +1135,7 @@ header.hidden {
         height: 2500px;
         width: auto;
         margin: 0 auto;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 10%)
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 10%)
     }
 
     .services {
@@ -1290,7 +1283,7 @@ header.hidden {
 .audyt-container {
     height: 3800px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 14%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 14%);
 }
 
 
@@ -1381,7 +1374,7 @@ header.hidden {
     .audyt-container {
         height: 4200px;
         width: auto;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 6%);
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 6%);
     } 
 }
 
@@ -1394,7 +1387,7 @@ header.hidden {
 .about-container {
     height: 2100px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 12%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 12%);
 }
 
 .about-title {
@@ -1482,7 +1475,7 @@ header.hidden {
 @media only screen and (min-width: 768px){
     .about-container {
         height: 2600px;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 23%);
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 23%);
     }
     
     .about-content {
@@ -1614,7 +1607,7 @@ header.hidden {
 .contact-container {
     height: 1000px;
     width: auto;
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 25%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 25%);
 }
 
 .contact {
@@ -1675,7 +1668,7 @@ header.hidden {
 @media only screen and (min-width: 768px) {
     .contact-container {
         height: 1400px;
-        background: radial-gradient(circle at 50% 0%, #192a88, #050505 32%);
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 32%);
     }
     
     .contact-form {
@@ -1917,7 +1910,7 @@ header.hidden {
 /** MESSAGE SENT **/
 
 .thx-container {
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 55%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 55%);
     padding-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
@@ -2011,7 +2004,7 @@ header.hidden {
 
 @media only screen and (min-width: 768px) {
     .thx-container {
-    background: radial-gradient(circle at 50% 0%, #192a88, #050505 50%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 50%);
     padding-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
