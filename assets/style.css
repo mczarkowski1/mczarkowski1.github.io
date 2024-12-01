@@ -174,7 +174,7 @@ header.hidden {
 
 @media only screen and (min-width: 768px) {
     header {
-        padding: 25px 320px;
+        padding: 25px 18%;
     }
 
     .burger {
@@ -1385,8 +1385,9 @@ header.hidden {
 /** ABOUT **/
 
 .about-container {
-    height: 2600px;
+    height: 100%;
     width: auto;
+    margin-bottom: 150px;
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 10%);
 }
 
@@ -1474,8 +1475,9 @@ header.hidden {
 
 @media only screen and (min-width: 768px){
     .about-container {
-        height: 2100px;
+        height: 100%;
         width: auto;
+        margin-bottom: 200px;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 24%);
     }
     
