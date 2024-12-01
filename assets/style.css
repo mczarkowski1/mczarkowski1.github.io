@@ -1281,8 +1281,9 @@ header.hidden {
 
 /*audyt*/
 .audyt-container {
-    height: 3800px;
+    height: 100%;
     width: auto;
+    margin-bottom: 300px;
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 14%);
 }
 
@@ -1372,8 +1373,9 @@ header.hidden {
     
     /*audyt*/
     .audyt-container {
-        height: 4200px;
+        height: 100%;
         width: auto;
+        margin-bottom: 250px;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 6%);
     } 
 }
