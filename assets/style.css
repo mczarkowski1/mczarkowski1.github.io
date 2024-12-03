@@ -1432,28 +1432,11 @@ header.hidden {
     text-align: justify;
 }
 
-.about-text-content-differentiators {
-    text-decoration: none;
-    font-weight: 900;
-    color: var(--Grey);
-}
-
-.about-list-content {
-    margin-bottom: 100px;
-    font-family: 'BDO Grotesk', sans-serif;
-    color: var(--White);
-    font-weight: 300;
-    font-size: 18px;
-    color: var(--Grey);
-    justify-content: start;
-}
-
-.about-left-list-content {
-    padding-left: 30px;
-}
-
-.about-right-list-content {
-    padding-left: 30px;
+.about-text-content-list {
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-left: 24px;
+    list-style-position: outside;
 }
 
 .clients {
