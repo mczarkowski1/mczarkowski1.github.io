@@ -1287,6 +1287,13 @@ header.hidden {
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 14%);
 }
 
+/*identyfikacja*/
+.identyfikacja-container {
+    height: 100%;
+    width: auto;
+    margin-bottom: 300px;
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 12%);
+}
 
 
 /*MOBILE*/
@@ -1377,7 +1384,15 @@ header.hidden {
         width: auto;
         margin-bottom: 250px;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 6%);
-    } 
+    }
+
+    /*identyfikacja*/
+    .identyfikacja-container {
+        height: 100%;
+        width: auto;
+        margin-bottom: 250px;
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 6%);
+    }
 }
 
 
