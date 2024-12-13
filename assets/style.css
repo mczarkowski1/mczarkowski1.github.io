@@ -696,7 +696,7 @@ header.hidden {
 .project-text-info-content {
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: var(--Grey);
 }
 
@@ -711,7 +711,7 @@ header.hidden {
     text-align: left;
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: var(--Grey);
     text-align: justify;
 }
