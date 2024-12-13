@@ -1587,7 +1587,6 @@ header.hidden {
     outline: none;
     transition: 0.4s;
     border-bottom: 1px solid var(--White);
-    text-align: justify;
 }
 
 .accordion{
