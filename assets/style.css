@@ -1337,6 +1337,13 @@ header.hidden {
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 12%);
 }
 
+/*logo*/
+.logo-container {
+    height: 100%;
+    width: auto;
+    margin-bottom: 300px;
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 15%);
+}
 
 /*MOBILE*/
 @media (max-width: 768px) {
@@ -1437,6 +1444,13 @@ header.hidden {
     }
 }
 
+/*logo*/
+.logo-container {
+    height: 100%;
+    width: auto;
+    margin-bottom: 250px;
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 7%);
+}
 
 
 
