@@ -1442,14 +1442,14 @@ header.hidden {
         margin-bottom: 250px;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 6%);
     }
-}
 
-/*logo*/
-.logo-container {
-    height: 100%;
-    width: auto;
-    margin-bottom: 250px;
-    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 7%);
+    /*logo*/
+    .logo-container {
+        height: 100%;
+        width: auto;
+        margin-bottom: 250px;
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 7%);
+    }
 }
 
 
