@@ -602,21 +602,25 @@ header.hidden {
     transform: scale(1.015);
 }
 
+.project:hover .project-url-p-descr {
+    color: var(--Grey);
+    transition: all 0.2s ease-in-out;
+}
+
+.project-url-p-descr {
+    color: var(--Black);
+    transition: all 0.2s ease-in-out;
+}
+
 .project-url {
     color: var(--White);
     text-decoration: none;
 }
 
-.project-url-p {
-    font-family: 'Switzer', sans-serif;
-    font-weight: 300;
-    font-size: 0.9rem;
-}
-
 .meta {
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 19px;
     margin-top: 0px;
     margin-bottom: 15px;
 }
