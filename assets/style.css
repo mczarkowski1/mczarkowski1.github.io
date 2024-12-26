@@ -1441,6 +1441,14 @@ header.hidden {
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 13%);
 }
 
+/*opakowania*/
+.opakowania-container {
+    height: 100%;
+    width: auto;
+    margin-bottom: 300px;
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 17%);
+}
+
 /*MOBILE*/
 @media (max-width: 768px) {
     .service-head-image {
@@ -1555,6 +1563,14 @@ header.hidden {
         width: auto;
         margin-bottom: 250px;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 5%);
+    }
+
+    /*opakowania*/
+    .opakowania-container {
+        height: 100%;
+        width: auto;
+        margin-bottom: 250px;
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 9%);
     }
 }
 
