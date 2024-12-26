@@ -1163,7 +1163,7 @@ header.hidden {
     .services-container {
         height: 100%;
         margin-bottom: 250px;
-        margin: 0 auto;
+        width: auto;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 10%)
     }
 
