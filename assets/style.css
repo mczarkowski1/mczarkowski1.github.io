@@ -1043,7 +1043,8 @@ header.hidden {
 /** SERVICES **/
 
 .services-container {
-    height: 2800px;
+    height: 100%;
+    margin-bottom: 300px;
     width: auto;
     background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 19%);
 }
@@ -1160,8 +1161,8 @@ header.hidden {
 
 @media (max-width: 768px) {
     .services-container {
-        height: 2500px;
-        width: auto;
+        height: 100%;
+        margin-bottom: 250px;
         margin: 0 auto;
         background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 10%)
     }
