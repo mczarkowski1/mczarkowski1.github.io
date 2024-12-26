@@ -1158,7 +1158,6 @@ header.hidden {
     margin-top: 40px;
 }
 
-
 @media (max-width: 768px) {
     .services-container {
         height: 2500px;
@@ -1325,6 +1324,92 @@ header.hidden {
     margin-top: 30px;
 }
 
+
+
+.opracowanie-tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 40px;
+    padding: 20px;
+}
+
+.opracowanie-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 45%; 
+    min-width: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.opracowanie-tile-text {
+    width: 100%;
+    text-align: left;
+}
+
+.opracowanie-tile-top-text h3 {
+    font-family: 'Switzer', sans-serif;
+    font-weight: 700;
+    color: var(--White);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.opracowanie-tile-bottom-text {
+    font-family: 'Switzer', sans-serif; 
+    font-weight: 300;
+    font-size: 19px;
+    color: var(--Grey);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.opracowanie-tile-list {
+    font-family: 'Switzer', sans-serif; 
+    font-weight: 300;
+    font-size: 19px;
+    color: var(--Grey);
+    text-align: justify;
+    padding-left: 24px;
+}
+
+@media (max-width: 768px) {
+    .opracowanie-tile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: 45%;
+        min-width: 300px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .opracowanie-tile-top-text h3 {
+        font-family: 'Switzer', sans-serif;
+        font-weight: 700;
+        color: var(--White);
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .opracowanie-tile-bottom-text {
+        font-family: 'Switzer', sans-serif; 
+        font-weight: 300;
+        font-size: 18px;
+        color: var(--Grey);
+        text-align: justify;
+    }
+}
+
+
+
 /*audyt*/
 .audyt-container {
     height: 100%;
@@ -1354,7 +1439,7 @@ header.hidden {
     height: 100%;
     width: auto;
     margin-bottom: 300px;
-    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 15%);
+    background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 13%);
 }
 
 /*MOBILE*/
@@ -1438,6 +1523,8 @@ header.hidden {
     .service-tile-bottom-text {
         font-size: 18px;
     }
+
+
     
     /*audyt*/
     .audyt-container {
@@ -1468,7 +1555,7 @@ header.hidden {
         height: 100%;
         width: auto;
         margin-bottom: 250px;
-        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 8%);
+        background: radial-gradient(circle at 50% 0%, var(--GradientBlue), var(--Black) 5%);
     }
 }
 
