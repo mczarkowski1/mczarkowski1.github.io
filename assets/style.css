@@ -421,7 +421,7 @@ header.hidden {
     height: 380px;
     display: flex;
     width: calc(380px);
-    animation: slide 15s infinite linear;
+    animation: slide 50s infinite linear;
 }
 
 .testimonial {
@@ -429,7 +429,7 @@ header.hidden {
     flex-shrink: 0;
     text-align: left;
     padding: 20px;
-    background: #f3f3f3;
+    background: var(--White);
 }
 
 .review-container {
@@ -472,10 +472,10 @@ header.hidden {
 
 @keyframes slide {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-450%);
     }
 }
 
@@ -489,7 +489,7 @@ header.hidden {
 
 .review-cta-url {
     padding: 10px;
-    font-family: 'BDO Grotestk', sans-serif;
+    font-family: 'Switzer', sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
@@ -518,6 +518,22 @@ header.hidden {
         text-align: center;
         padding-top: 600px;
         padding-bottom: 10px;
+    }
+
+    .testimonials {
+        height: 380px;
+        display: flex;
+        width: calc(380px);
+        animation: slide 15s infinite linear;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
     }
 }
 
@@ -1686,7 +1702,7 @@ header.hidden {
     }
 
     .about-list-content {
-        font-family: 'BDO Grotesk', sans-serif;
+        font-family: 'Switzer', sans-serif;
         color: var(--White);
         font-weight: 300;
         font-size: 19px;
