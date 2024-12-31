@@ -293,10 +293,9 @@ header.hidden {
     padding-top: 75px;
 }
 
-.intr-button-about {
+.intr-button-second {
     height: 4.4rem;
     width: 15rem;
-    margin-bottom: 15px;
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
@@ -309,15 +308,16 @@ header.hidden {
     transition: all 0.2s ease-in-out;
 }
 
-.intr-button-about:hover {
+.intr-button-second:hover {
     background: var(--White);
     border-color: var(--White);
     color: var(--Black);
 }
 
-.intr-button-contact {
+.intr-button-first {
     height: 4.4rem;
     width: 15rem;
+    margin-bottom: 15px;
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
     font-size: 1rem;
@@ -335,12 +335,12 @@ header.hidden {
     transition: all 0.2s ease-in-out;
 }
 
-.intr-button-contact:hover {
+.intr-button-first:hover {
     background: var(--White);
     color: var(--Black);
 }
 
-.intr-button-contact:hover > .intr-button-icon  {
+.intr-button-first:hover > .intr-button-icon  {
     filter: invert(80%)
 }
 
@@ -350,10 +350,10 @@ header.hidden {
 
 @media only screen and (min-width: 768px) {
     .intro {
-    background: radial-gradient(circle at 50% 100%, var(--GradientBlue), var(--Black) 45%); 
-    padding-top: 100px;
-    padding-bottom: 500px;
-    text-align: center;
+        background: radial-gradient(circle at 50% 100%, var(--GradientBlue), var(--Black) 45%); 
+        padding-top: 100px;
+        padding-bottom: 500px;
+        text-align: center;
     }
     
     .intro-text {
@@ -376,7 +376,7 @@ header.hidden {
         cursor: default;
     }
 
-    .intr-button-about {
+    .intr-button-first {
         height: 4.4rem;
         width: 15rem;
         margin-right: 10px;
@@ -384,7 +384,7 @@ header.hidden {
         border-radius: 3rem;
     }
 
-    .intr-button-contact {
+    .intr-button-second {
         height: 4.4rem;
         width: 15rem;
         margin-left: 10px;
