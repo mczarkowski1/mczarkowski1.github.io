@@ -1769,7 +1769,7 @@ header.hidden {
 }
 
 .accordion:after {
-    content: "\002B"; /* Unicode character for "plus" sign (+) */
+    content: "\002B";
     font-size: 19px;
     color: var(--White);
     float: right;
@@ -1777,8 +1777,15 @@ header.hidden {
 }
 
 .faq-active:after {
-    content: "\2212"; /* Unicode character for "minus" sign (-) */
+    content: "\2212";
     color: var(--White);
+}
+
+.faq-internal-list {
+    margin-bottom: 20px;
+    padding-left: 24px;
+    list-style-position: outside;
+    font-size: 19px;
 }
 
 @media only screen and (max-width: 768px){
@@ -1791,6 +1798,13 @@ header.hidden {
     }
 
     .accordion:after {
+        font-size: 18px;
+    }
+
+    .faq-internal-list {
+        margin-bottom: 20px;
+        padding-left: 24px;
+        list-style-position: outside;
         font-size: 18px;
     }
 }
