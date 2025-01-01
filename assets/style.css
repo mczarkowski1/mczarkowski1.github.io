@@ -1739,6 +1739,7 @@ header.hidden {
     border: none;
     outline: none;
     transition: 0.4s;
+    border-bottom: 1px solid var(--White);
     font-size: 19px;
     margin: 0;
 }
