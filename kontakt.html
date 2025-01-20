@@ -74,8 +74,7 @@
                     </div>
                 </div>
                 <section class="contact">
-                    <form class="contact-form" id="contactform" action="https://formsubmit.io/send/26f01614-bfa5-490a-a8f8-10781db64a32" method="POST">
-                        <input name="_redirect" type="hidden" id="name" value="https://mczarkowski.com/dziekuje">
+                    <form class="contact-form" id="contactform" action="https://formsubmit.co/mczarkowski.kontakt@gmail.com" method="POST">
                         <div class="contact-form-field">
                             <input type="text" name="name" id="name" placeholder="Imię i nazwisko" required />
                         </div>
@@ -85,7 +84,11 @@
                         <div class="contact-form-field">
                             <textarea name="message" id="comment" cols="30" rows="6" placeholder="Temat wiadomości" required></textarea>
                         </div>
-                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <input type="hidden" name="_next" value="https://mczarkowski.com/dziekuje">
+                        <input type="hidden" name="_subject" value="[mczarkowski.com] Nowa wiadomość">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_template" value="table">
                         <button type="submit" class="contact-form-btn">Wyślij</button>
                     </form>
                 </section>
