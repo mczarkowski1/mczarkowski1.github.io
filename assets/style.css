@@ -340,7 +340,7 @@ header.hidden {
     color: var(--Black);
 }
 
-.intr-button-first:hover > .intr-button-icon  {
+.intr-button-second:hover > .intr-button-icon  {
     filter: invert(80%)
 }
 
