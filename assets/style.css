@@ -442,16 +442,18 @@ header.hidden {
 .review-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .review-quote {
     display: flex;
     position: absolute;
-    width: 9rem
+    width: 9rem;
 }
 
 .review-stars {
-    width: 5rem
+    width: 5rem;
+    align-self: flex-start;
 }
 
 .testimonial p {
@@ -468,6 +470,20 @@ header.hidden {
 .author {
     font-family: 'Switzer', sans-serif;
     font-weight: 500;
+}
+
+.review-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company {
+    font-family: 'Switzer', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--Black);
+    margin-top: -10px;
 }
 
 @keyframes slide {
