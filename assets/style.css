@@ -752,6 +752,11 @@ header.hidden {
     text-align: justify;
 }
 
+.projects-texts-content-heading {
+    color: var(--White);
+    font-weight: 500;
+}
+
 .in-project-url {
     text-decoration: none;
     color: var(--Blue);
