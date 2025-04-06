@@ -753,6 +753,8 @@ header.hidden {
 }
 
 .projects-texts-content-heading {
+    -webkit-text-fill-color: var(--White);
+    -webkit-opacity: 1; 
     color: var(--White);
     font-weight: 500;
 }
