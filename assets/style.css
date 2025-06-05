@@ -7,6 +7,14 @@
 }
 
 @font-face {
+    font-family: 'Playfair Display';
+    src: url("../assets/fonts/PlayfairDisplay-Variable.ttf")
+    format("truetype supports variations"),url("../assets/fonts/PlayfairDisplay-Variable.ttf")
+    format("truetype-variations");
+    font-weight: 300 400 500 700 900;
+}
+
+@font-face {
     font-family: 'Switzer';
     src: url("../assets/fonts/Switzer-Variable.ttf")
     format("truetype supports variations"),url("../assets/fonts/Switzer-Variable.ttf")
@@ -256,11 +264,14 @@ header.hidden {
     width: 100%;
     margin-bottom: 15px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 24px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
     color: var(--White);
     cursor: default;
+    line-height: 52px;
+    font-kerning: auto;
+    letter-spacing: -2px;
 }
 
 .intro-bottom-text {
@@ -358,11 +369,13 @@ header.hidden {
     
     .intro-text {
         width: 100%;
+        margin-top: 30px;
         margin-bottom: 25px;
         padding-left: 12%;
         padding-right: 12%;
         text-align: center;
-        font-size: 88px;
+        font-size: 80px;
+        line-height: 90px;
     }
 
     .intro-bottom-text {
