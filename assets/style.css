@@ -255,7 +255,7 @@ header.hidden {
 
 .intro {
     background: radial-gradient(circle at 50% 100%, var(--GradientBlue), var(--Black) 45%); 
-    padding-top: 100px;
+    padding-top: 15px;
     padding-bottom: 150px;
     text-align: center;
 }
