@@ -281,6 +281,8 @@ header.hidden {
 .bottom-text-p {
     width: 450px;
     margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
     text-align: center;
     font-family: 'Switzer', sans-serif;
     font-weight: 300;
@@ -377,8 +379,8 @@ header.hidden {
         width: 100%;
         margin-top: 30px;
         margin-bottom: 25px;
-        padding-left: 12%;
-        padding-right: 12%;
+        padding-left: 10%;
+        padding-right: 10%;
         text-align: center;
         font-size: 80px;
         line-height: 90px;
@@ -387,6 +389,8 @@ header.hidden {
     .bottom-text-p {
         width: 900px;
         margin-bottom: 15px;
+        padding-left: 4%;
+        padding-right: 4%;
         text-align: center;
         justify-content: center;
         font-family: 'Switzer', sans-serif;
