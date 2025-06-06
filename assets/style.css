@@ -278,8 +278,8 @@ header.hidden {
     letter-spacing: 0px;
 }
 
-.intro-bottom-text {
-    width: 100%;
+.bottom-text-p {
+    width: 450px;
     margin-bottom: 15px;
     padding-left: 60px;
     padding-right: 60px;
@@ -289,6 +289,10 @@ header.hidden {
     font-size: 12px;
     color: var(--Grey);
     cursor: default;
+}
+
+.intro-bottom-text {
+    justify-items: center;
 }
 
 .heading-color {
@@ -382,13 +386,14 @@ header.hidden {
         line-height: 90px;
     }
 
-    .intro-bottom-text {
-        width: 100%;
+    .bottom-text-p {
+        width: 900px;
         margin-bottom: 15px;
         text-align: center;
+        justify-content: center;
         font-family: 'Switzer', sans-serif;
         font-weight: 300;
-        font-size: 19px;
+        font-size: 18px;
         color: var(--Grey);
         cursor: default;
     }
