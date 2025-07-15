@@ -706,7 +706,6 @@ header.hidden {
     }
     
     .project:hover {
-        filter: brightness(120%);
         transform: scale(1.015);
     }
 
