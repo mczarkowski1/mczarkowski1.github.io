@@ -279,8 +279,9 @@ header.hidden {
 }
 
 .bottom-text-p {
-    width: 450px;
-    margin-bottom: 15px;
+    max-width: 450px;
+    margin: 0 auto 15px auto; /*x*/
+    /*margin-bottom: 15px;*/
     padding-left: 80px;
     padding-right: 80px;
     text-align: center;
@@ -291,9 +292,9 @@ header.hidden {
     cursor: default;
 }
 
-.intro-bottom-text {
+/*.intro-bottom-text {
     justify-items: center;
-}
+}*/
 
 .heading-color {
     color: var(--Blue);
@@ -387,17 +388,18 @@ header.hidden {
     }
 
     .bottom-text-p {
-        width: 900px;
-        margin-bottom: 15px;
+        max-width: 900px;
+        margin: 0 auto 15px auto; /*x*/
+        /*margin-bottom: 15px;*/
         padding-left: 4%;
         padding-right: 4%;
         text-align: center;
-        justify-content: center;
+        /*justify-content: center;
         font-family: 'Switzer', sans-serif;
-        font-weight: 300;
+        font-weight: 300;*/
         font-size: 18px;
-        color: var(--Grey);
-        cursor: default;
+        /*color: var(--Grey);
+        cursor: default;*/
     }
 
     .intr-button-first {
