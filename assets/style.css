@@ -642,8 +642,8 @@ header.hidden {
 
 .projects-section {
     width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-top: 35px;
 }
 
@@ -691,8 +691,8 @@ header.hidden {
 @media only screen and (min-width: 768px) {
     .projects-section {
         width: auto;
-        margin-left: 290px;
-        margin-right: 290px;
+        margin-left: 16%;
+        margin-right: 16%;
     }
 
     .projects {
@@ -2936,4 +2936,5 @@ footer {
         color: var(--Grey2);
     }
 }
+
 
