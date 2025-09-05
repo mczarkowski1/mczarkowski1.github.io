@@ -2722,13 +2722,13 @@ footer {
 
 .case-study-process {
     position: relative;
-    max-height: 300px; /* dostosuj wg potrzeb */
+    max-height: 300px;
     overflow: hidden;
     transition: max-height 0.3s ease;
 }
 
 .case-study-process.expanded {
-    max-height: 3000px; /* duża wartość żeby się rozwinęło */
+    max-height: 4600px;
 }
 
 .fade-shadow {
@@ -2936,3 +2936,4 @@ footer {
         color: var(--Grey2);
     }
 }
+
