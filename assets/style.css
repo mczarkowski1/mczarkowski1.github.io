@@ -247,7 +247,7 @@ header.hidden {
     }
 
     .logo-file {
-    height: 40px;
+    height: 35px;
     }
 }
 
@@ -2936,5 +2936,6 @@ footer {
         color: var(--Grey2);
     }
 }
+
 
 
